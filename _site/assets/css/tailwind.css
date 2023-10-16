@@ -962,6 +962,20 @@ main blockquote {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+main hr {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  height: 1px;
+  border-width: 0px;
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
+}
+
+:is(.dark main hr) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(55 65 81 / var(--tw-bg-opacity));
+}
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;

@@ -29,6 +29,10 @@ Welcome to the Litigation Handbook, a comprehensive guide designed to help pract
 - **Preparing for Trial**: Key steps in the run-up to trial.
 - **Participating in Trial**: What to expect and how to conduct yourself during the trial.
 
+---
+
 Each section includes not just theoretical knowledge, but also practical tips and examples to help you better represent your clients and succeed in court.
+
+---
 
 Feel free to dive into each section for detailed insights and guidance. Whether you're a seasoned lawyer or a beginner in the field of civil rights litigation, this handbook aims to be an invaluable resource.
