@@ -4,7 +4,7 @@ meta_description: Exploring mediation as an alternative to litigation.
 title: The Mediation
 sub_heading: Resolving Cases Outside of Court
 eleventyNavigation:
-  key: the-mediation
+  key: The Mediation
   parent: Litigation Handbook
   order: 10
 ---

@@ -4,7 +4,7 @@ meta_description: A guide to the essential steps before entering litigation in p
 title: Pre-Litigation
 sub_heading: Essential Steps Before the Courtroom
 eleventyNavigation:
-  key: pre-litigation
+  key: Pre-Litigation
   parent: Litigation Handbook
   order: 2
 ---

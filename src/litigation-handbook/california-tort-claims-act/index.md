@@ -4,7 +4,7 @@ meta_description: An in-depth guide to the California Tort Claims Act and how it
 title: California Tort Claims Act
 sub_heading: Navigating the California Tort Claims Act in Police Misconduct Cases
 eleventyNavigation:
-  key: california-tort-claims-act
+  key: California Tort Claims Act
   parent: Litigation Handbook
   order: 1
 ---

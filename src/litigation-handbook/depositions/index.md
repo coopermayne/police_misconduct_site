@@ -4,7 +4,7 @@ meta_description: How to effectively take and defend depositions.
 title: Depositions
 sub_heading: Mastering the Deposition Process
 eleventyNavigation:
-  key: depositions
+  key: Depositions
   parent: Litigation Handbook
   order: 6
 ---

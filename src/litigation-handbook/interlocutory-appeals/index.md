@@ -4,7 +4,7 @@ meta_description: Navigating appeals before the final judgment.
 title: Interlocutory Appeals
 sub_heading: Understanding Appeals During Litigation
 eleventyNavigation:
-  key: interlocutory-appeals
+  key: Interlocutory Appeals
   parent: Litigation Handbook
   order: 9
 ---

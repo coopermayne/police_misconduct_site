@@ -4,7 +4,7 @@ meta_description: Tips for Participating in Trial
 title: Participating in Trial
 sub_heading: Tips for Participating in Trial
 eleventyNavigation:
-  key: participating-in-trial
+  key: Participating in Trial
   parent: Litigation Handbook
   order: 13
 ---

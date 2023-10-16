@@ -4,7 +4,7 @@ meta_description: Strategies for dealing with motions for summary judgment.
 title: Motions for Summary Judgment
 sub_heading: Overcoming Hurdles Before Trial
 eleventyNavigation:
-  key: motions-for-summary-judgment
+  key: Motions for Summary Judgment
   parent: Litigation Handbook
   order: 8
 ---

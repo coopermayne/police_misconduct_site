@@ -4,7 +4,7 @@ meta_description: Steps to take after filing the initial complaint.
 title: After Complaint
 sub_heading: What Comes After the Initial Filing
 eleventyNavigation:
-  key: after-complaint
+  key: After Complaint
   parent: Litigation Handbook
   order: 5
 ---

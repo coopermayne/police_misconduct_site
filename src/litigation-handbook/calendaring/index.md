@@ -4,7 +4,7 @@ meta_description: Effective calendaring techniques for police misconduct cases.
 title: Calendaring
 sub_heading: Keeping Track of Your Legal Timelines
 eleventyNavigation:
-  key: calendaring
+  key: Calendaring
   parent: Litigation Handbook
   order: 3
 ---

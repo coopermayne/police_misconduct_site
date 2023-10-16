@@ -4,7 +4,7 @@ meta_description: Pretrial documentation required in the Central District of Cal
 title: Pretrial Documents (CDCA)
 sub_heading: Getting Your Documents Ready for Trial
 eleventyNavigation:
-  key: pretrial-documents-cdca
+  key: Pretrial Documents (CDCA)
   parent: Litigation Handbook
   order: 11
 ---

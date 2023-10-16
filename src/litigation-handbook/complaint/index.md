@@ -4,7 +4,7 @@ meta_description: Crafting the initial complaint in police misconduct cases.
 title: Complaint
 sub_heading: Initiating Your Police Misconduct Case
 eleventyNavigation:
-  key: complaint
+  key: Complaint
   parent: Litigation Handbook
   order: 4
 ---
