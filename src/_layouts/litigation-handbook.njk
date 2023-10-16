@@ -1,0 +1,22 @@
+---
+layout: base
+---
+
+    
+
+
+    <ul>
+    {% for item in collections.all %}
+        {% if item.data.eleventyNavigation.parent == "Litigation Handbook" %}
+        <li><a href="{{ item.url }}">{{ item.data.title }}</a></li>
+        {% endif %}
+    {% endfor %}
+    </ul>
+
+
+    <div class="content flow">
+
+        {{ content | safe }}
+
+    </div>
+

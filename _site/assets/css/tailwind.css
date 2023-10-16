@@ -1136,6 +1136,10 @@ main blockquote {
   position: relative;
 }
 
+.sticky {
+  position: sticky;
+}
+
 .inset-0 {
   inset: 0px;
 }
@@ -1239,6 +1243,10 @@ main blockquote {
 
 .grid {
   display: grid;
+}
+
+.contents {
+  display: contents;
 }
 
 .hidden {
@@ -1423,6 +1431,12 @@ main blockquote {
 
 .overflow-hidden {
   overflow: hidden;
+}
+
+.truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .whitespace-nowrap {
@@ -1621,12 +1635,20 @@ main blockquote {
   font-weight: 600;
 }
 
+.capitalize {
+  text-transform: capitalize;
+}
+
 .leading-6 {
   line-height: 1.5rem;
 }
 
 .leading-9 {
   line-height: 2.25rem;
+}
+
+.leading-loose {
+  line-height: 2;
 }
 
 .leading-none {
