@@ -11,8 +11,6 @@ eleventyNavigation:
 
 Welcome to the Litigation Handbook, a comprehensive guide designed to help practitioners, particularly those focused on civil rights cases involving police misconduct, navigate the complex world of litigation. This handbook serves as a roadmap, offering step-by-step guidance and best practices from the earliest stages of considering a claim through to trial.
 
----
-
 ## What's Inside
 
 - **California Tort Claims Act**: Essential information on adhering to this foundational California law.
@@ -29,10 +27,7 @@ Welcome to the Litigation Handbook, a comprehensive guide designed to help pract
 - **Preparing for Trial**: Key steps in the run-up to trial.
 - **Participating in Trial**: What to expect and how to conduct yourself during the trial.
 
----
-
 Each section includes not just theoretical knowledge, but also practical tips and examples to help you better represent your clients and succeed in court.
 
----
 
 Feel free to dive into each section for detailed insights and guidance. Whether you're a seasoned lawyer or a beginner in the field of civil rights litigation, this handbook aims to be an invaluable resource.

@@ -2,21 +2,9 @@
 layout: base
 ---
 
-    <article id="container-centre" class="column centre">
+    <article>
 
-        <header class="page-header">
-
-            <h1 class="page-title">{{ title }}</h1>
-
-            {% if sub_heading %}
-
-                <p class="sub-heading">{{ sub_heading }}</p>
-
-            {% endif %}
-
-        </header>
-
-        <div class="content flow">
+        <div class="prose">
 
             {{ content | safe }}
 
