@@ -19,4 +19,32 @@
     {% include "partials/_footer.njk" %}
   </div>
 </body>
+
+<script>
+  function toggleNav() {
+      var nav = document.getElementById('mobileNav');
+      if (nav.classList.contains('hidden')) {
+          nav.classList.remove('hidden');
+      } else {
+          nav.classList.add('hidden');
+      }
+  }
+</script>
+
+
+<script>
+  function toggleMobileNav() {
+      // Toggle navigation menu visibility
+      const mobileNav = document.getElementById('mobileNav2');
+      mobileNav.classList.toggle('hidden');
+      
+      // Toggle SVG icons
+      const hamburgerIcon = document.getElementById('hamburger');
+      const closeIcon = document.getElementById('closeIcon');
+      
+      hamburgerIcon.classList.toggle('hidden');
+      closeIcon.classList.toggle('hidden');
+  }
+</script>
+
 </html>

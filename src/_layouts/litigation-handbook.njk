@@ -1,8 +1,47 @@
 ---
 layout: base
 ---
+
+<!-- Mobile Nav Button -->
+<div class="md:hidden border-gray-200 mb-4">
+    <button onclick="toggleMobileNav()" class="flex items-center p-1">
+        <!-- Hamburger Icon -->
+        <svg id="hamburger" class="w-5 h-5 mr-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M1 1h15M1 7h15M1 13h15"/>
+        </svg>
+
+        <!-- Close (X) Icon -->
+        <svg id="closeIcon" class="w-5 h-5 mr-2 hidden" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M1 1l12 12M13 1L1 13"/>
+        </svg>
+
+        <span class="font-light text-lg ml-2">
+        {% if title === "Litigation Handbook" %}
+        <span class="ml-1">Litigation Handbook</span>
+
+        {% else  %}
+        <span class="ml-1">Handbook</span><span class="mx-0.5">-</span><span class="italic">{{title}}</span>
+ 
+        {% endif %}
+        </span>
+    </button>
+    <!-- Mobile Navigation -->
+    <div id="mobileNav2" class="hidden w-full">
+        <ul class="font-light text-lg flex flex-col ml-9">
+            {% set navItems = collections.all | eleventyNavigation("Litigation Handbook") %}
+            {% for item in navItems %}
+            <li class="m1.5">
+                <a href="{{ item.url }}" class="block py-1 pl-2 pr-2 text-gray-900 rounded hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700 {{ 'text-white bg-blue-700' if page.url === item.url }}">
+                    {{ item.title }}
+                </a>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
+
 <!-- Navigation -->
-<div class="hidden md:block md:fixed md:pt-6">
+<nav class="hidden md:block md:fixed md:pt-6">
     
     <ul>
     {% set navItems = collections.all | eleventyNavigation("Litigation Handbook") %}
@@ -12,7 +51,7 @@ layout: base
     </li>
         {% endfor %}
     </ul>
-</div>
+</nav>
 
 
 
