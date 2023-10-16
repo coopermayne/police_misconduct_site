@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: litigation-handbook
 meta_title: Litigation Handbook
 meta_description: Step-by-step guide to litigating police misconduct cases in federal court.
 title: Litigation Handbook
