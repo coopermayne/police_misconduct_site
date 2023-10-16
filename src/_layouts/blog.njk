@@ -1,22 +1,38 @@
 ---
 layout: base
-pagination:
 data: collections.blog
 size: 3
 alias: blogs
 ---
-<ul>
-    {% for item in collections.blog %}
-    
-    <li><a href="{{ item.url }}">{{ item.data.title }}</a></li>
-    
-    {% endfor %}
-</ul>
-
-
-<div class="prose">
-    
-    {{ content | safe }}
-    
+<div class="max-w-3xl mx-auto p-4 sm:px-6 md:px-8">
+    <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">{{ title }}</h1>
+    <p class="text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">{{ sub_heading }}</p>
+    <div class="prose">{{ content | safe }}</div>
 </div>
 
+<hr class="my-4">
+
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+    {% for item in collections.blog %}
+    <div class="bg-white rounded-lg dark:bg-gray-800>
+        <a href="{{ item.url }}">
+            <img class="rounded-t-lg" src="{{ item.data.image }}" alt="{{ item.data.imageDescription }}" />
+        </a>
+        <div class="p-5">
+            <a href="{{ item.url }}">
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{{ item.data.title }}</h5>
+            </a>
+            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                {{ item.data.meta_description }}
+                <a href="{{ item.url }}" class="ml-1 inline-flex items-center text-blue-700 hover:underline">
+                    <span class="align-middle">Read more</span>
+                    <svg class="w-3.5 h-3.5 ml-1 align-middle" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                    </svg>
+                </a>
+            </p>
+            
+        </div>
+    </div>
+    {% endfor %}
+</div>

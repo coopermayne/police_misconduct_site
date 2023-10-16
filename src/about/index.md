@@ -1,15 +1,13 @@
 ---
-layout: base
+layout: home
 meta_title: About Civil Rights Legal Hub
 meta_description: Learn more about Civil Rights Legal Hub, your comprehensive resource for civil rights law.
-title: About
-sub_heading: Civil Rights Legal Hub is a resource platform dedicated to equipping civil rights lawyers with the tools they need for success.
+title: About Us
+sub_heading: We provide resources and tools for civil rights lawyers.
 eleventyNavigation:
   key: About
   order: 4
 ---
-
-# About Civil Rights Legal Hub
 
 ## Our Mission
 

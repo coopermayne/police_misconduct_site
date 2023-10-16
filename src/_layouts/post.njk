@@ -2,60 +2,61 @@
 layout: base
 ---
 
-<article class="">
+<div class="hidden md:block md:fixed md:pt-6">
     
-    <div class="">
-        
-        <time class="" datetime="{{ date | timestamp }}">{{ date | dateDisplay }}</time>
-        
+    <ul>
+        <li class="my-1.5">
+            <span class="underline">Author</span>:
+            {{author}}
+        </li>
+        <li class="my-1.5">
+            <span class="underline">Date</span>:
+            <time class="" datetime="{{ date | timestamp }}">{{ date | dateDisplay }}</time>
+        </li>
         {% if tags %}
         
-        <div class="">
-            
-            <ul class="">
-                
-                {# this will create a comma for multiple category links #}
-                {% set comma = joiner() %}
+        <li class="">
+            <span class="underline">Tags</span>: 
+            <div class="ml-4">
                 
                 {% for item in tags %}
                 
                 {%- if item !== 'blog' -%}
                 
-                <li><a href="/categories/{{ item }}">{{ comma() }} {{ item | capitalize }}</a></li>
+                <div class=""><a href="/categories/{{ item }}">{{ item | capitalize }}</a></span>
+                    
+                    {%- endif -%}
+                    
+                    {% endfor %}
+                    
+                </span>
                 
-                {%- endif -%}
-                
-                {% endfor %}
-                
-            </ul>
+            </li>
             
-        </div>
+            {% endif %}
+        </ul>
+    </div>
+    
+    <div class="md:pl-[300px]  md:pt-6">
+        
+        <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">{{ title }}</h1>
+        <p class="mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">{{ sub_heading }}</p>
+        
+        {# featured post image #}
+        {% if post_image %}
+        
+        <figure>
+            
+            <img data-src="{{ post_image }}" alt="{{ image_alt }}">
+            
+            {% if image_alt %}
+            <figcaption>{{ image_alt }}</figcaption>
+            {% endif %}
+            
+        </figure>
         
         {% endif %}
         
+        <div class="prose">{{ content | safe }}</div>
     </div>
     
-</header>
-
-{# featured post image #}
-{% if post_image %}
-
-<figure>
-    
-    <img data-src="{{ post_image }}" alt="{{ image_alt }}">
-    
-    {% if image_alt %}
-    <figcaption>{{ image_alt }}</figcaption>
-    {% endif %}
-    
-</figure>
-
-{% endif %}
-
-<div class="prose">
-    
-    {{ content | safe }}
-    
-</div>
-
-</article>
