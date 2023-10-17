@@ -5,30 +5,22 @@
 
 
 
-/* @layer base {
-    main h1 {
+@layer base {
+    #searchResults li h1 {
       @apply text-5xl font-extrabold dark:text-white;
     }
-    main h2 {
+    #searchResults li h2 {
       @apply text-4xl font-bold dark:text-white;
     }
-    main h3 {
+    #searchResults li h3 {
       @apply text-3xl font-bold dark:text-white;
     }
-    main h4 {
+    #searchResults li h4 {
       @apply text-2xl font-bold dark:text-white;
     }
 
-    main p {
+    #searchResults li p {
         @apply tracking-tighter text-gray-500 md:text-lg dark:text-gray-400;
     }
 
-    main blockquote {
-        @apply text-xl italic font-semibold text-gray-900 dark:text-white;
-    }
-
-    main hr {
-      @apply h-px my-6 bg-gray-200 border-0 dark:bg-gray-700;
-    }
-    
-  } */
+  }

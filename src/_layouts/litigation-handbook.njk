@@ -43,6 +43,34 @@ layout: base
 <!-- Navigation -->
 <nav class="hidden md:block md:fixed md:pt-6">
     
+    <div class="searchbar" style="z-index:1003";>
+        <div class="relative flex w-full flex-wrap items-stretch">
+          <input
+            type="search"
+            id="searchField"
+            class="relative m-0 block w-[1px] min-w-0 flex-auto border border-solid border-neutral-300 bg-transparent bg-clip-padding px-3 py-[0.25rem] text-base font-normal leading-[1.6] text-neutral-700 outline-none transition duration-200 ease-in-out focus:z-[3] focus:border-primary focus:text-neutral-700 focus:shadow-[inset_0_0_0_1px_rgb(59,113,202)] focus:outline-none dark:border-neutral-600 dark:text-neutral-200 dark:placeholder:text-neutral-200 dark:focus:border-primary"
+            placeholder="Search..."
+            aria-label="Search"
+            aria-describedby="button-addon2" />
+      
+          <!--Search icon-->
+          <span
+            class="input-group-text flex items-center whitespace-nowrap px-3 py-1.5 text-center text-base font-normal text-neutral-700 dark:text-neutral-200"
+            id="basic-addon2">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+              class="h-5 w-5">
+              <path
+                fill-rule="evenodd"
+                d="M9 3.5a5.5 5.5 0 100 11 5.5 5.5 0 000-11zM2 9a7 7 0 1112.452 4.391l3.328 3.329a.75.75 0 11-1.06 1.06l-3.329-3.328A7 7 0 012 9z"
+                clip-rule="evenodd" />
+            </svg>
+          </span>
+        </div>
+    </div>
+
     <ul>
     {% set navItems = collections.all | eleventyNavigation("Litigation Handbook") %}
     {% for item in navItems %}
@@ -54,14 +82,33 @@ layout: base
 </nav>
 
 
+<!-- Overlay -->
+<div id="overlay" class="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center" style="display:none; z-index:1000;"></div>
+
+<!-- Search Results -->
+<div id="searchResultsContainer" class="absolute bg-white pt-6 ml-[300px]" style="display:none; z-index:1001;">
+    <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">Search Results</h1>
+    <ol id="searchResults">
+    </ol>
+</div>
+
 
 <!-- Main Content -->
 <div class="md:pl-[300px]  md:pt-6">
+
 
     <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">{{ title }}</h1>
     <p class="text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">{{ sub_heading }}</p>
 
     <hr class="my-4">
 
+    <aside>{{ content | toc | safe }}</aside>
+
+
     <div class="prose">{{ content | safe }}</div>
 </div>
+
+
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/elasticlunr/0.9.6/elasticlunr.min.js"></script>
+<script type="text/javascript" src="{{ '/assets/js/script.js' | url }}"></script>

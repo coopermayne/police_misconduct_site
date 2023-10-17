@@ -31,6 +31,4 @@ While qualified immunity protects officers from frivolous lawsuits, critics argu
 
 New case laws and public opinion are increasingly scrutinizing the applicability of qualified immunity. As this doctrine continues to evolve, it remains a critical consideration for any legal professional working in the field of police misconduct.
 
----
-
 By understanding the complexities of qualified immunity, legal professionals can better navigate the challenges it presents in police misconduct cases.
