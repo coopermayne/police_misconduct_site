@@ -58,15 +58,6 @@
     }
   };
   
-
-  // Hide overlay and search results when overlay is clicked
-  // overlay.addEventListener('click', function() {
-  //     this.style.display = 'none';
-  //     resEl.style.display = 'none';
-  //     resElCont.style.display = 'none'
-  //     resEl.innerHTML = "";  // Clear previous search results
-  // });
-
   fetch("/search-index.json").then((response) =>
     response.json().then((rawIndex) => {
       window.searchIndex = elasticlunr.Index.load(rawIndex);
@@ -74,3 +65,25 @@
     })
   );
 })(window, document);
+
+function toggleNav() {
+  var nav = document.getElementById('mobileNav');
+  if (nav.classList.contains('hidden')) {
+      nav.classList.remove('hidden');
+  } else {
+      nav.classList.add('hidden');
+  }
+}
+
+function toggleMobileNav() {
+  // Toggle navigation menu visibility
+  const mobileNav = document.getElementById('mobileNav2');
+  mobileNav.classList.toggle('hidden');
+  
+  // Toggle SVG icons
+  const hamburgerIcon = document.getElementById('hamburger');
+  const closeIcon = document.getElementById('closeIcon');
+  
+  hamburgerIcon.classList.toggle('hidden');
+  closeIcon.classList.toggle('hidden');
+}
