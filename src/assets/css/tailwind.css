@@ -3,8 +3,12 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
+@layer base {
+  #searchResults li {
+    @apply mb-3;
+  }
+}
+/* 
 @layer base {
     #searchResults li h1 {
       @apply text-5xl font-extrabold dark:text-white;
@@ -23,4 +27,4 @@
         @apply tracking-tighter text-gray-500 md:text-lg dark:text-gray-400;
     }
 
-  }
+  } */

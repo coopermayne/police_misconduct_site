@@ -30,10 +30,12 @@
         resEl.appendChild(el);
   
         const h3 = document.createElement("h3");
+        h3.setAttribute("class", "text-3xl font-bold dark:text-white text-blue-700 hover:underline")
         el.appendChild(h3);
   
         const a = document.createElement("a");
         a.setAttribute("href", id);
+        
         a.textContent = title;
         h3.appendChild(a);
   
@@ -41,13 +43,13 @@
         metaDesc.textContent = meta_description;
         el.appendChild(metaDesc);
   
-        const subHead = document.createElement("p");
-        subHead.textContent = sub_heading;
-        el.appendChild(subHead);
+        // const subHead = document.createElement("p");
+        // subHead.textContent = sub_heading;
+        // el.appendChild(subHead);
   
-        const postContent = document.createElement("p");
-        postContent.textContent = content;
-        el.appendChild(postContent);
+        // const postContent = document.createElement("p");
+        // postContent.textContent = content;
+        // el.appendChild(postContent);
       });
       // overlay.style.display = 'flex';
       resElCont.style.display = 'block';
