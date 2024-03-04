@@ -42,7 +42,7 @@ module.exports = function(eleventyConfig){
     // Remove whitespace from a string
     eleventyConfig.addNunjucksFilter('spaceless', helpers.spaceless)
 
-    eleventyConfig.addPassthroughCopy("src/assets/css/style.css");
+    eleventyConfig.addPassthroughCopy("src/assets/css/tailwind.css");
     eleventyConfig.addPassthroughCopy("src/assets/images");
 
     eleventyConfig.addPassthroughCopy("src/assets/js/script.js");
