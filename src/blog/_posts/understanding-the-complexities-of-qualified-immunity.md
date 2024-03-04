@@ -6,7 +6,6 @@ sub_heading: A deep dive into qualified immunity and its impact on police miscon
 # post_image: /images/qualified-immunity.jpg
 image_alt: Photo by Bill Oxford on Unsplash
 tags:
-    - blog
     - law
 
 ---

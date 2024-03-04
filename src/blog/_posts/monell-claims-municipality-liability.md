@@ -6,6 +6,5 @@ sub_heading: A closer look at Monell v. Department of Social Services and its la
 # post_image: /images/monell-claims.jpg
 image_alt: Photo by Alex Brown on Unsplash
 tags:
-    - blog
     - law
 ---

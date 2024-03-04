@@ -8,6 +8,6 @@ robots: noindex,follow
 title: The Blog
 eleventyNavigation:
   key: Blog
-  order: 3
+  order: 1
 ---
 

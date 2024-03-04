@@ -5,8 +5,6 @@ const pluginTOC = require('eleventy-plugin-toc')
 
 const searchFilter = require("./utilities/filters/searchFilter");
 
-
-
 const markdownIt = require('markdown-it')
 const markdownItAttrs = require('markdown-it-attrs')
 const markdownItAnchor = require('markdown-it-anchor')
@@ -22,9 +20,13 @@ markdownLib.use(markdownItAnchor);
 
 module.exports = function(eleventyConfig){
 
+  eleventyConfig.addCollection("blog", function(collectionApi) {
+    return collectionApi.getFilteredByGlob("src/blog/_posts/*.md");
+  });
 
-
-
+  eleventyConfig.addCollection("news", function(collectionApi) {
+    return collectionApi.getFilteredByGlob("src/news/_posts/*.md");
+  });
 
   eleventyConfig.addPlugin(navigation)
 

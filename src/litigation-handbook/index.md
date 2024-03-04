@@ -6,7 +6,7 @@ title: Litigation Handbook
 sub_heading: Your handbook for litigating police misconduct cases.
 eleventyNavigation:
   key: Litigation Handbook
-  order: 4
+  order: 3
 ---
 
 Welcome to the Litigation Handbook, a comprehensive guide designed to help practitioners, particularly those focused on civil rights cases involving police misconduct, navigate the complex world of litigation. This handbook serves as a roadmap, offering step-by-step guidance and best practices from the earliest stages of considering a claim through to trial.

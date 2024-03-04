@@ -6,7 +6,6 @@ sub_heading: A comprehensive look at the legal complexities of suing state actor
 # post_image: /images/14th-amendment-excessive-force.jpg
 image_alt: Photo by Element5 Digital on Unsplash
 tags:
-    - blog
     - law
     - civil rights
     - 14th Amendment

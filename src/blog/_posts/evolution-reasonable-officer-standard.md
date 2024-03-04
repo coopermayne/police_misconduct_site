@@ -6,6 +6,5 @@ sub_heading: How courts determine what a "reasonable" police officer would do.
 # post_image: /images/reasonable-officer.jpg
 image_alt: Photo by John Smith on Unsplash
 tags:
-    - blog
     - law
 ---

@@ -47,9 +47,9 @@
         // subHead.textContent = sub_heading;
         // el.appendChild(subHead);
   
-        // const postContent = document.createElement("p");
-        // postContent.textContent = content;
-        // el.appendChild(postContent);
+        const postContent = document.createElement("p");
+        postContent.textContent = content;
+        el.appendChild(postContent);
       });
       // overlay.style.display = 'flex';
       resElCont.style.display = 'block';

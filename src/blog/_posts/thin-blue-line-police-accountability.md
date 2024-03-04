@@ -6,6 +6,5 @@ sub_heading: Navigating the fine line between police protections and public acco
 # post_image: /images/thin-blue-line.jpg
 image_alt: Photo by Richard Roe on Unsplash
 tags:
-    - blog
     - law
 ---

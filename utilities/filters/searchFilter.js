@@ -17,7 +17,7 @@ module.exports = function (collection) {
       title: page.template.frontMatter.data.title,
       meta_description: page.template.frontMatter.data.meta_description,
       sub_heading: page.template.frontMatter.data.sub_heading,
-      content: page.templateContent  // Assuming page.templateContent holds the content of your markdown file
+      content: page.content  // Assuming page.templateContent holds the content of your markdown file
     });
   });
 

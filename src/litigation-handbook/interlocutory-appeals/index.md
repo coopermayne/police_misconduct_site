@@ -8,33 +8,37 @@ eleventyNavigation:
   parent: Litigation Handbook
   order: 9
 ---
--   What is an Interlocutory Appeal?
--   -   An appeal is referred to as an "interlocutory appeal" when it is made before all claims are resolved as to all parties. The question is whether the ruling appealed was a "final decision."
--   When is an Interlocutory Appeal Permitted?
--   -   Interlocutory appeals are generally disfavored.
-    -   An interlocutory appeal is only appropriate where the issue appealed is purely an issue of law. However, instant appeal is not available when the district court determines that factual issues genuinely in dispute preclude summary adjudication. (Ortiz v. Jordan, 562 U.S. 180, 188 (2011)). "Where the district court denies immunity on the basis that material facts are in dispute, [appellate courts] generally lack jurisdiction to consider an interlocutory appeal." (Collins v. Jordan, 110 F.3d 1363, 1370 (9th Cir. 1996)). An order denying qualified immunity on the basis of disputed material facts is not a final, immediately appealable order. (Johnson v. Jones, 515 U.S. 304, 307 (1995)).
-    -   An interlocutory appeal is permitted where waiting to bring an appeal would be particularly prejudicial to the rights of the appealing party.
-    -   With respect to qualified immunity, the defendant, but not the plaintiff, may have a right to appeal the ruling as an exception to the "final decision" rule. Because immunity is a protection from litigation itself, the wrongful denial of immunity cannot be remedied in an appeal from a final judgment. At that point, the official has incurred all of the burdens and uncertainties that qualified immunity is meant to prevent. So if the wrongful denial of qualified immunity is to be corrected at all, that correction must be immediate. The same is not true for the plaintiff.
-    -   The SCOTUS set forth the collateral order doctrine as a test for determining whether an interlocutory appeal can proceed: (1) the outcome of the case would be conclusively determined by the issue; (2) the matter appealed was collateral to the merits; and (3) the matter would be unreviewable if immediate appeal were denied.
--   When Does This Arise in Our Cases?
--   -   When the district court denies the individual defendant officers' requests for qualified immunity on MSJ, then the defendant officers may file a notice of interlocutory appeal arguing that whether the law was clearly established is a purely legal issue that can be determined by the Ninth Circuit.
-    -   The notice of appeal is filed in the district court prior to any briefs being filed with the Ninth Circuit. The Ninth Circuit will set a briefing schedule on its own accord and issue that schedule via ECF.
--   What is the Effect of an Interlocutory Appeal on the Case?
--   -   A circuit split exists with respect to whether the district court should stay the proceedings pending the resolution of the arbitrability of the interlocutory appeal.
-    -   In determining whether to stay proceedings pending appeal of a denial of qualified immunity, district courts must weigh the interests of the defendants claiming immunity from trial with the interest of the other litigants and the judicial system. "During the appeal memories fade, attorneys' meters tick, judges' schedules become chaotic (to the detriment of litigants in other cases). Plaintiffs' entitlements may be lost or undermined." (Apostol v. Gallion, 870 F.2d 1335, 1338-1339 (7th Cir. 1989)). Nonetheless, a stay is automatic so long as the appeal is not frivolous (Chuman v. Wright, 960 F.2d 104, 104 (9th Cir. 1992)), and turns on an issue of law. (Mitchell v. Forsyth, 472 U.S. 511, 530 (1985)).
-    -   An interlocutory appeal can delay the district court case by years.
--   In California Courts
--   -   In California, interlocutory appeals are usually sought by filing a petition for writ of mandate with the Court of Appeal. If granted, the writ directs the appropriate superior court to vacate a particular order. Writs of mandate are a discretionary remedy; such petitions are almost always denied due to the state's public policy of encouraging efficient litigation of civil actions on the merits in the superior courts.
--   Ex Parte Application or Motion to Certify the Interlocutory Appeal as Frivolous
--   -   If a notice of interlocutory appeal is filed with the district court in your case, typically following an order on MSJ in Plaintiff's favor, then you should file (with the district court) an ex parte application or motion to certify the interlocutory appeal as frivolous.
-    -   Where a denial is immediately appealable, the filing of the appeal divests the district court of jurisdiction to proceed with trial. (Chuman, 960 F.2d at 104). However, because this result could potentially disrupt and delay trial court proceedings, the Ninth Circuit has held that a district court may proceed with trial if the defendant's appeal is frivolous or has been waived. (Id. (citing Apostol, 870 F.2d at 1335)). Without a certification that the claim is frivolous or has been waived, trial is automatically stayed until the disposition of the appeal. (Id.)
-    -   Review the court order on MSJ and highlight the portions indicating that the denial was based on disputed issues of fact. Where the facts are disputed, it is impossible to determine whether the constitutional right was clearly established because it is unclear which prior cases are analogous to the instant case. Attach the court order highlighting the relevant portions as an exhibit to your motion to certify as frivolous. (Knox v. Southwest Airlines, 124 F.3d 1103, 1107 (9th Cir. 1997) (no jurisdiction over an interlocutory appeal that focuses on whether there is a genuine dispute about the underlying facts)).
-    -   Per the Central District rules, you must verbally meet and confer (an email does not suffice) with defense counsel a minimum of 24 hours prior to filing the ex parte application and obtain their position on whether they will oppose the ex parte application. You must file a concurrent declaration explaining which defense counsel you spoke to and providing their contact information and position.
-    -   If the pretrial conference and related pretrial filing deadlines are approaching, which is common in this situation where the order on MSJ is issued within the weeks before the pretrial conference, then you have good cause to file the motion on an ex parte basis.
-    -   The defense may request that we stipulate to vacate all dates pending resolution of the ex parte application and Defendants' interlocutory appeal. Although we associates would like to avoid drafting pretrial documents where the pretrial conference is likely to be continued or vacated, we typically can't agree to vacate the dates because doing so would cut against our argument that the appeal should be certified as frivolous to avoid undue delay. The district court will likely stay the district court case in any event based on the law cited above.
--   Motion to Dismiss Defendants' Ninth Circuit Appeal for Lack of Jurisdiction
--   -   If the district court denies Plaintiff's motion to certify Defendants' interlocutory appeal as frivolous, then you should file a motion to dismiss Defendants' appeal for lack of jurisdiction with the Ninth Circuit.
-    -   You can file this motion at any time and there is no statute of limitations as to this motion because jurisdiction is always a ripe issue. However, you should file the motion as soon as your motion with the district court seeking to certify the appeal as frivolous is denied, or at least prior to the defense filing their opening brief with the Ninth Circuit.
-    -   The motion to the Ninth Circuit sets forth the same arguments as your motion to certify as frivolous.
-    -   A recent order granting our motion to dismiss succinctly stated as follows: "Appellees' motion to dismiss these consolidated appeals for lack of jurisdiction (Docket Entry No. 13) is granted. See 28 U.S.C. § 1291; Alston v. 96 Read, 663 F.3d 1094, 1098 (9th Cir. 2011) (pretrial order denying immunity is reviewable only to the extent it raises an issue of law); Maropulos v. Cty. of Los Angeles, 560 F.3d 974, 975 (9th Cir. 2009) (per curiam) (citing Johnson v. Jones, 515 U.S. 304, 307 (1995)) (an order denying qualified immunity on the ground that a genuine issue of material fact exists is not a final, immediately appealable order)."
-    -   If your motion to dismiss for lack of jurisdiction is denied, then you should raise your argument again within your answering brief.
+
+Interlocutory appeals represent a crucial, albeit complex, aspect of the judicial process in federal civil litigation, allowing parties to appeal certain court decisions before a case is fully resolved. Understanding the intricacies of interlocutory appeals is essential for litigants seeking to challenge or defend against these intermediate legal battles.
+
+## What is an Interlocutory Appeal?
+
+An interlocutory appeal occurs when a party appeals a court's decision before all claims and issues are resolved regarding all parties involved. The core question often revolves around whether the decision appealed constitutes a "final decision," making it ripe for appellate review.
+
+## When is an Interlocutory Appeal Permitted?
+
+Although generally disfavored due to the potential for delaying proceedings, interlocutory appeals are permissible under specific circumstances:
+
+- **Issue of Law**: An interlocutory appeal is appropriate mainly when the issue appealed is purely an issue of law, particularly where factual disputes do not preclude summary adjudication.
+- **Qualified Immunity**: A notable exception to the "final decision" rule involves orders denying qualified immunity, where the defendant may appeal immediately. This is because immunity serves as a shield against the litigation process itself, not just liability.
+- **Collateral Order Doctrine**: The Supreme Court has outlined a doctrine allowing for interlocutory appeals if the issue conclusively determines the case's outcome, is separate from the merits, and would be unreviewable if immediate appeal were denied.
+
+## The Effect of Interlocutory Appeals on a Case
+
+Filing an interlocutory appeal can significantly impact the underlying case, potentially halting proceedings for an extended period. Courts must balance the appealing party's rights against the interests of other litigants and the judicial system. An automatic stay is applied if the appeal is non-frivolous and centers on a legal issue, though this can be contested if the appeal is deemed frivolous.
+
+## Interlocutory Appeals in California Courts
+
+In California, parties typically seek interlocutory review by filing a petition for writ of mandate in the Court of Appeal. However, due to a preference for resolving cases on their merits at the trial level, such petitions are rarely granted.
+
+## Challenging Frivolous Interlocutory Appeals
+
+If faced with what appears to be a frivolous interlocutory appeal, parties may file an ex parte application or motion in the district court to certify the appeal as such. This involves a detailed review of the order in question, highlighting any factual disputes that underscore the appeal's lack of merit. Effective communication with opposing counsel is required, as is a prompt filing if pretrial deadlines loom.
+
+## Motion to Dismiss Defendants' Appeal for Lack of Jurisdiction
+
+Should the district court reject a motion to certify an interlocutory appeal as frivolous, the next step involves petitioning the appellate court to dismiss the appeal for lack of jurisdiction. This motion reiterates arguments from the district court level, emphasizing jurisdictional challenges and the appeal's impact on the progression of the case.
+
+## Conclusion
+
+Interlocutory appeals play a significant role in federal civil litigation, offering a pathway to challenge certain decisions before a case concludes. However, the strategic use of these appeals requires a deep understanding of legal standards, procedural nuances, and the potential effects on case dynamics. By carefully navigating the conditions and implications of interlocutory appeals, litigants can effectively advocate for their positions while minimizing unnecessary delays in the litigation process.

@@ -6,6 +6,5 @@ sub_heading: How body-worn cameras are changing the face of modern policing.
 # post_image: /images/body-cameras.jpg
 image_alt: Photo by Charlie Green on Unsplash
 tags:
-    - blog
     - law
 ---

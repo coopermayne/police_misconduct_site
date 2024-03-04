@@ -42,8 +42,8 @@ layout: base
 
 <!-- Navigation -->
 <nav class="hidden md:block md:fixed md:pt-6">
-    
-    <div class="searchbar" style="z-index:1003";>
+
+    {# <div class="searchbar" style="z-index:1003";>
         <div class="relative flex w-full flex-wrap items-stretch">
           <input
             type="search"
@@ -69,7 +69,7 @@ layout: base
             </svg>
           </span>
         </div>
-    </div>
+    </div> #}
 
     <ul>
     {% set navItems = collections.all | eleventyNavigation("Litigation Handbook") %}
@@ -83,14 +83,14 @@ layout: base
 
 
 <!-- Overlay -->
-<div id="overlay" class="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center" style="display:none; z-index:1000;"></div>
+{# <div id="overlay" class="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center" style="display:none; z-index:1000;"></div>
 
 <!-- Search Results -->
 <div id="searchResultsContainer" class="absolute bg-white pt-6 ml-[300px] h-full" style="display:none; z-index:1001;">
     <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">Search Results</h1>
     <ol id="searchResults">
     </ol>
-</div>
+</div> #}
 
 
 <!-- Main Content -->
@@ -101,8 +101,9 @@ layout: base
     <p class="text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">{{ sub_heading }}</p>
 
     <hr class="my-4">
-
-    <aside>{{ content | toc | safe }}</aside>
+    
+    <aside class="hidden xl2:block xl2:fixed right-0 top--100 w-64 h-screen overflow-y-auto">{{ content | toc | safe }}</aside>
+    
 
 
     <div class="prose">{{ content | safe }}</div>

@@ -6,6 +6,5 @@ sub_heading: The significance of Section 1983 in redressing constitutional wrong
 # post_image: /images/section-1983.jpg
 image_alt: Photo by Jane Doe on Unsplash
 tags:
-    - blog
     - law
 ---

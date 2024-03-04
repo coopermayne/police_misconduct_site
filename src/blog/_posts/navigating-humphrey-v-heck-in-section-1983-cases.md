@@ -6,7 +6,6 @@ sub_heading: How Humphrey v. Heck can bar Section 1983 claims and strategies to 
 # post_image: /images/humphrey-heck.jpg
 image_alt: Photo by Sora Shimazaki on Unsplash
 tags:
-    - blog
     - law
     - Humphrey v. Heck
     - Section 1983
